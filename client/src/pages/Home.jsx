@@ -13,11 +13,11 @@ export default function Home() {
       <section className='relative h-screen flex items-center justify-center text-center overflow-hidden'>
         <video src='/src/assets/hero.mp4' autoPlay loop muted className='absolute inset-0 w-full h-full object-cover opacity-30' />
         <motion.div initial={{ opacity: 0, y: -20, scale: 0.98 }} animate={{ opacity: 1, y: 0, scale: 1 }} transition={{ duration: 0.9, ease: 'easeOut' }} className='z-10 max-w-3xl mx-auto p-6'>
-          <h1 className='text-6xl md:text-7xl font-extrabold leading-tight text-red-600 neon-title'>UNDERGYM</h1>
-          <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.35, duration: 0.8 }} className='text-white mt-4 text-lg md:text-xl'>Transforme seu corpo, supere seus limites !</motion.p>
+          <h1 className='text-6xl md:text-7xl font-extrabold leading-tight text-blue-600 neon-title'>AURA FIT</h1>
+          <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.35, duration: 0.8 }} className='text-white mt-4 text-lg md:text-xl'>AURA + EGO </motion.p>
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }} className='mt-8 flex justify-center gap-4'>
             <a href='#planos' className='header-btn'>Matricule-se</a>
-            <a href='#modalidades' className='px-5 py-3 rounded-full border border-red-600 text-red-600 font-semibold hover:bg-red-600/10 transition'>Ver Modalidades</a>
+            <a href='#modalidades' className='px-5 py-3 rounded-full border border-blue-600 text-blue-600 font-semibold hover:bg-blue-600/10 transition'>Ver Modalidades</a>
           </motion.div>
         </motion.div>
       </section>
@@ -37,13 +37,13 @@ export default function Home() {
       transition={{ duration: 0.8 }}
       className="space-y-6"
     >
-      <h2 className="text-4xl md:text-5xl font-extrabold text-red-600 neon-title leading-tight">
+      <h2 className="text-4xl md:text-5xl font-extrabold text-blue-600 neon-title leading-tight">
         ESCOLHAS<br /> MAIS SAUDÁVEIS
       </h2>
 
       <p className="text-white text-lg max-w-xl">
-        Na UNDERGYM, cada treino é planejado para o seu melhor desempenho. Nosso
-        foco é garantir saúde, força e evolução — com programas personalizados,
+        Na Aura fit, cada treino é planejado para farma aura. Nosso
+        foco é garantir sua aura e ego — com programas personalizados,
         equipamentos modernos e acompanhamento de profissionais qualificados.
       </p>
 
@@ -51,7 +51,7 @@ export default function Home() {
         <a href="#planos" className="header-btn">Ver Planos</a>
         <a
           href="#contato"
-          className="px-5 py-3 rounded-full border border-red-600 text-red-600 font-semibold hover:bg-red-600/10 transition"
+          className="px-5 py-3 rounded-full border border-blue-600 text-blue-600 font-semibold hover:bg-blue-600/10 transition"
         >
           Fale com um Coach
         </a>
@@ -76,7 +76,7 @@ export default function Home() {
         <DepoimentosFloatings />
 
         <section className='max-w-6xl mx-auto p-6'>
-        <h2 className='text-3xl font-bold text-red-700 mb-4'>Galeria</h2>
+        <h2 className='text-3xl font-bold text-blue-700 mb-4'>Galeria</h2>
         <PhotoCarousel />
       </section>
 </motion.section>
@@ -87,10 +87,10 @@ export default function Home() {
       <section className='relative h-screen flex items-center justify-center text-center overflow-hidden'>
         <video src='/src/assets/footer.mp4' autoPlay loop muted className='absolute inset-0 w-full h-full object-cover opacity-30' />
         <motion.div initial={{ opacity: 0, y: -20, scale: 0.98 }} animate={{ opacity: 1, y: 0, scale: 1 }} transition={{ duration: 0.9, ease: 'easeOut' }} className='z-10 max-w-3xl mx-auto p-6'>
-          <h1 className='text-5xl md:text-5xl font-extrabold leading-tight text-white'>VEM FAZER PARTE DA <span className='text-5xl md:text-5xl font-extrabold leading-tight text-red-500 neon-title'>UNDER</span></h1>
-          <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.35, duration: 0.8 }} className='text-white mt-4 text-lg md:text-xl'>Supere a si mesmo e se torne <span className='text-red-500 neon-title'>lendário</span> !</motion.p>
+          <h1 className='text-5xl md:text-5xl font-extrabold leading-tight text-white'>VEM FAZER PARTE DA <span className='text-5xl md:text-5xl font-extrabold leading-tight text-blue-500 neon-title'>AURA</span></h1>
+          <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.35, duration: 0.8 }} className='text-white mt-4 text-lg md:text-xl'>farme aura conosco e se torne <span className='text-blue-500 neon-title'>lendário</span> !</motion.p>
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }} className='mt-8 flex justify-center gap-4'>
-            <a href='#modalidades' className='px-5 py-3 rounded-full border border-red-600 text-red-600 font-semibold hover:bg-red-600/10 transition'>Matricule-se</a>
+            <a href='#modalidades' className='px-5 py-3 rounded-full border border-blue-600 text-blue-600 font-semibold hover:bg-blue-600/10 transition'>Matricule-se</a>
           </motion.div>
         </motion.div>
       </section>

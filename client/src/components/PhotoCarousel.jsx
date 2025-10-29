@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 export default function PhotoCarousel(){
-  const fotos = ['/src/assets/photo1.jpg','/src/assets/photo2.jpg','/src/assets/photo3.jpg','/src/assets/photo4.jpg','/src/assets/photo5.jpg','/src/assets/photo6.jpg','/src/assets/photo7.jpg'];
+  const fotos = ['/src/assets/photo1.png','/src/assets/photo2.png','/src/assets/photo3.png','/src/assets/photo4.png','/src/assets/photo5.png'];
   return (
     <div className='bg-transparent'>
       <Swiper modules={[Navigation, Autoplay]} navigation autoplay={{ delay:3000 }} loop spaceBetween={20} slidesPerView={1} breakpoints={{640:{slidesPerView:1},768:{slidesPerView:2},1024:{slidesPerView:3}}}>
