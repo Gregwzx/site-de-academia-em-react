@@ -1,13 +1,16 @@
 {
-  "name": "undergym-site",
+  "name": "academia-aura-jailson-ferreira",
   "version": "1.0.0",
+  "homepage": "https://Gregwzx.github.io/site-de-academia-em-react",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
     "axios": "^1.4.0",
     "framer-motion": "^10.12.16",
     "react": "^18.2.0",
@@ -18,6 +21,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.4.7",
     "vite": "^5.2.0"
