@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "homepage": "https://Gregwzx.github.io/site-de-academia-em-react",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -25,5 +26,10 @@
     "postcss": "^8.4.24",
     "tailwindcss": "^3.4.7",
     "vite": "^5.2.0"
+  }
+},
+{
+  "engines": {
+    "node": "20.x"
   }
 }
