@@ -1,4 +1,4 @@
-# 🏋️‍♂️ UNDERGYM — Site de Academia em React
+# 🏋️‍♂️ Aura fit — Site de Academia totalmente responsivo
 
 Um site moderno, responsivo e dinâmico desenvolvido em **React + TailwindCSS**, com estilo inspirado em academias reais como Ironberg.  
 Feito para demonstrar como uma academia pode ter uma presença digital impactante e profissional.
