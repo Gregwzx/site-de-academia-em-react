@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ======= GLOBAL RESET ======= */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* ======= CUSTOM STYLES ======= */
+.header-btn {
+  background-color: #1a73ff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  box-shadow: 0 6px 18px rgba(26, 115, 255, 0.14);
+  transition: all 0.2s ease;
+}
+.header-btn:hover {
+  background-color: #004fe4;
+}
+
+.neon-title {
+  text-shadow: 0 0 6px rgba(26, 115, 255, 0.6), 0 0 18px rgba(26, 115, 255, 0.28),
+    0 0 36px rgba(26, 115, 255, 0.12);
+  color: rgb(40, 120, 255);
+}
+
+.card-dark {
+  background: #0f0f0f;
+  border: 1px solid rgba(26, 115, 255, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.neon-frame {
+  box-shadow: 0 0 18px rgba(26, 115, 255, 0.28),
+    0 0 40px rgba(26, 115, 255, 0.18),
+    inset 0 0 8px rgba(26, 115, 255, 0.06);
+  border-radius: 1rem;
+  border: 2px solid rgba(26, 115, 255, 0.18);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
